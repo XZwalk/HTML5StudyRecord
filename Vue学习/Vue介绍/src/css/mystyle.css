@@ -1,0 +1,31 @@
+/*不要在属性值与单位之间留有空格（如："margin-left: 20 px" ），正确的写法是 "margin-left: 20px" 。*/
+
+hr {
+    color: orange;
+}
+
+p {
+    margin-left: 20px;
+}
+
+body {
+    background-color: white;
+}
+
+
+/*HTML元素以id属性来设置id选择器,CSS 中 id 选择器以 "#" 来定义*/
+#menu {
+    background-color:#FFD700;
+    height:200px;
+    width:100px;
+    float:left;
+}
+
+
+/*class 选择器在HTML中以class属性表示, 在 CSS 中，类选择器以一个点"."号显示：*/
+.important {
+    background-color:#fe5d4e;
+    height:200px;
+    width:100px;
+    float:left;
+}
